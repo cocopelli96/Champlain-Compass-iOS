@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65E511809B3FC7209BAE869E /* Pods_Champlain_CompassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B237CD52B7F6F31CE23C8F6 /* Pods_Champlain_CompassTests.framework */; };
+		7F31FCC520423A5F00C44F4B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCC420423A5F00C44F4B /* UIColorExtension.swift */; };
+		7F31FCC82044738100C44F4B /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCC72044738100C44F4B /* EventCell.swift */; };
+		7F31FCCA2044738E00C44F4B /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCC92044738E00C44F4B /* BuildingCell.swift */; };
+		7F31FCCC2044739C00C44F4B /* ResourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCCB2044739C00C44F4B /* ResourceCell.swift */; };
+		7F31FCCE204473AA00C44F4B /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCCD204473AA00C44F4B /* QuestionCell.swift */; };
+		7F31FCD02044AD0A00C44F4B /* PresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCCF2044AD0A00C44F4B /* PresenterViewController.swift */; };
+		7F31FCD22045DB1700C44F4B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F31FCD12045DB1700C44F4B /* MapKit.framework */; };
+		7F31FCD42046129200C44F4B /* DateViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCD32046129200C44F4B /* DateViewCell.swift */; };
+		7F31FCDA204AFE8200C44F4B /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31FCD9204AFE8200C44F4B /* CustomInfoWindow.swift */; };
+		7F31FCDD204B0C9300C44F4B /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F31FCDC204B0C9300C44F4B /* CustomInfoWindow.xib */; };
+		7F51F5D32037A9E900933530 /* GroupSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5D22037A9E900933530 /* GroupSelectionViewController.swift */; };
+		7F51F5D62037AA1E00933530 /* AreaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5D52037AA1E00933530 /* AreaSelectionViewController.swift */; };
+		7F51F5D82037AA3200933530 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5D72037AA3200933530 /* SettingsViewController.swift */; };
+		7F51F5DA2037AA3F00933530 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5D92037AA3F00933530 /* MapViewController.swift */; };
+		7F51F5DC2037AA4E00933530 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5DB2037AA4E00933530 /* ScheduleViewController.swift */; };
+		7F51F5DE2037AA5C00933530 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5DD2037AA5C00933530 /* ResourcesViewController.swift */; };
+		7F51F5E02037AA6D00933530 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51F5DF2037AA6D00933530 /* QuestionsViewController.swift */; };
 		7F859978201BCF45008BD8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859977201BCF45008BD8FD /* AppDelegate.swift */; };
-		7F85997A201BCF45008BD8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859979201BCF45008BD8FD /* ViewController.swift */; };
+		7F85997A201BCF45008BD8FD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859979201BCF45008BD8FD /* StartViewController.swift */; };
 		7F85997D201BCF45008BD8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F85997B201BCF45008BD8FD /* Main.storyboard */; };
 		7F85997F201BCF45008BD8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F85997E201BCF45008BD8FD /* Assets.xcassets */; };
 		7F859982201BCF45008BD8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F859980201BCF45008BD8FD /* LaunchScreen.storyboard */; };
 		7F85998D201BCF45008BD8FD /* Champlain_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85998C201BCF45008BD8FD /* Champlain_CompassTests.swift */; };
 		7F859998201BCF45008BD8FD /* Champlain_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F859997201BCF45008BD8FD /* Champlain_CompassUITests.swift */; };
+		7FD40CB02051BB4C002E449D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FD40CAF2051BB4C002E449D /* GoogleService-Info.plist */; };
+		7FE740DA203B41410015CCD8 /* CompassDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE740D9203B41410015CCD8 /* CompassDataStructures.swift */; };
+		7FE740DC203B4A8F0015CCD8 /* CompassDataLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE740DB203B4A8F0015CCD8 /* CompassDataLab.swift */; };
+		7FE740DE203CB0070015CCD8 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE740DD203CB0070015CCD8 /* EventViewController.swift */; };
+		7FE74122203E3B330015CCD8 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FE74121203E3B330015CCD8 /* fontawesome-webfont.ttf */; };
+		C0947E72ABBA6641C73E5AF1 /* Pods_Champlain_CompassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF48F3D8BFF02259DD87B1DB /* Pods_Champlain_CompassUITests.framework */; };
+		C7231466CD3AB385BB94E22C /* Pods_Champlain_Compass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41C95D67536567489C1704B /* Pods_Champlain_Compass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +59,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38AD42C2359F83A707BECF80 /* Pods-Champlain Compass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain Compass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass.debug.xcconfig"; sourceTree = "<group>"; };
+		4B237CD52B7F6F31CE23C8F6 /* Pods_Champlain_CompassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Champlain_CompassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68557F493EA8E7EF7FE0DDD6 /* Pods-Champlain CompassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain CompassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain CompassUITests/Pods-Champlain CompassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68E1ADC1FD17777B4ACC197C /* Pods-Champlain CompassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain CompassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain CompassTests/Pods-Champlain CompassTests.release.xcconfig"; sourceTree = "<group>"; };
+		75021567F30D6D1A83A9D94D /* Pods-Champlain CompassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain CompassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain CompassUITests/Pods-Champlain CompassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F31FCC420423A5F00C44F4B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7F31FCC72044738100C44F4B /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		7F31FCC92044738E00C44F4B /* BuildingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCell.swift; sourceTree = "<group>"; };
+		7F31FCCB2044739C00C44F4B /* ResourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCell.swift; sourceTree = "<group>"; };
+		7F31FCCD204473AA00C44F4B /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		7F31FCCF2044AD0A00C44F4B /* PresenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterViewController.swift; sourceTree = "<group>"; };
+		7F31FCD12045DB1700C44F4B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7F31FCD32046129200C44F4B /* DateViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewCell.swift; sourceTree = "<group>"; };
+		7F31FCD9204AFE8200C44F4B /* CustomInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInfoWindow.swift; sourceTree = "<group>"; };
+		7F31FCDC204B0C9300C44F4B /* CustomInfoWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomInfoWindow.xib; sourceTree = "<group>"; };
+		7F51F5D22037A9E900933530 /* GroupSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectionViewController.swift; sourceTree = "<group>"; };
+		7F51F5D52037AA1E00933530 /* AreaSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaSelectionViewController.swift; sourceTree = "<group>"; };
+		7F51F5D72037AA3200933530 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7F51F5D92037AA3F00933530 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7F51F5DB2037AA4E00933530 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		7F51F5DD2037AA5C00933530 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		7F51F5DF2037AA6D00933530 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		7F859974201BCF45008BD8FD /* Champlain Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Champlain Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F859977201BCF45008BD8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F859979201BCF45008BD8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F859979201BCF45008BD8FD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		7F85997C201BCF45008BD8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F85997E201BCF45008BD8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F859981201BCF45008BD8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +94,15 @@
 		7F859993201BCF45008BD8FD /* Champlain CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Champlain CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F859997201BCF45008BD8FD /* Champlain_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champlain_CompassUITests.swift; sourceTree = "<group>"; };
 		7F859999201BCF45008BD8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD40CAF2051BB4C002E449D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FE740D9203B41410015CCD8 /* CompassDataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassDataStructures.swift; sourceTree = "<group>"; };
+		7FE740DB203B4A8F0015CCD8 /* CompassDataLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassDataLab.swift; sourceTree = "<group>"; };
+		7FE740DD203CB0070015CCD8 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		7FE74121203E3B330015CCD8 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		94E6B34148F5DE5CDE90EA83 /* Pods-Champlain CompassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain CompassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain CompassTests/Pods-Champlain CompassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E41C95D67536567489C1704B /* Pods_Champlain_Compass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Champlain_Compass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6077A8E3FA5A9D78E2645BD /* Pods-Champlain Compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Champlain Compass.release.xcconfig"; path = "Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass.release.xcconfig"; sourceTree = "<group>"; };
+		EF48F3D8BFF02259DD87B1DB /* Pods_Champlain_CompassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Champlain_CompassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F31FCD22045DB1700C44F4B /* MapKit.framework in Frameworks */,
+				C7231466CD3AB385BB94E22C /* Pods_Champlain_Compass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E511809B3FC7209BAE869E /* Pods_Champlain_CompassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +127,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0947E72ABBA6641C73E5AF1 /* Pods_Champlain_CompassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5B05001D3A4D6F99C1B764 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38AD42C2359F83A707BECF80 /* Pods-Champlain Compass.debug.xcconfig */,
+				E6077A8E3FA5A9D78E2645BD /* Pods-Champlain Compass.release.xcconfig */,
+				94E6B34148F5DE5CDE90EA83 /* Pods-Champlain CompassTests.debug.xcconfig */,
+				68E1ADC1FD17777B4ACC197C /* Pods-Champlain CompassTests.release.xcconfig */,
+				75021567F30D6D1A83A9D94D /* Pods-Champlain CompassUITests.debug.xcconfig */,
+				68557F493EA8E7EF7FE0DDD6 /* Pods-Champlain CompassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1613116368FB004C2574B93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F31FCD12045DB1700C44F4B /* MapKit.framework */,
+				E41C95D67536567489C1704B /* Pods_Champlain_Compass.framework */,
+				4B237CD52B7F6F31CE23C8F6 /* Pods_Champlain_CompassTests.framework */,
+				EF48F3D8BFF02259DD87B1DB /* Pods_Champlain_CompassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F31FCC62044735600C44F4B /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				7F31FCC72044738100C44F4B /* EventCell.swift */,
+				7F31FCC92044738E00C44F4B /* BuildingCell.swift */,
+				7F31FCCB2044739C00C44F4B /* ResourceCell.swift */,
+				7F31FCCD204473AA00C44F4B /* QuestionCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		7F31FCDB204AFE8C00C44F4B /* CustomInfoMarker */ = {
+			isa = PBXGroup;
+			children = (
+				7F31FCD9204AFE8200C44F4B /* CustomInfoWindow.swift */,
+				7F31FCDC204B0C9300C44F4B /* CustomInfoWindow.xib */,
+			);
+			path = CustomInfoMarker;
+			sourceTree = "<group>";
+		};
+		7F51F5D42037A9F700933530 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F859979201BCF45008BD8FD /* StartViewController.swift */,
+				7F51F5D22037A9E900933530 /* GroupSelectionViewController.swift */,
+				7F51F5D52037AA1E00933530 /* AreaSelectionViewController.swift */,
+				7F51F5D72037AA3200933530 /* SettingsViewController.swift */,
+				7F51F5DB2037AA4E00933530 /* ScheduleViewController.swift */,
+				7FE740DD203CB0070015CCD8 /* EventViewController.swift */,
+				7F31FCCF2044AD0A00C44F4B /* PresenterViewController.swift */,
+				7F51F5DD2037AA5C00933530 /* ResourcesViewController.swift */,
+				7F51F5DF2037AA6D00933530 /* QuestionsViewController.swift */,
+				7F51F5D92037AA3F00933530 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		7F85996B201BCF45008BD8FD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +202,8 @@
 				7F85998B201BCF45008BD8FD /* Champlain CompassTests */,
 				7F859996201BCF45008BD8FD /* Champlain CompassUITests */,
 				7F859975201BCF45008BD8FD /* Products */,
+				0E5B05001D3A4D6F99C1B764 /* Pods */,
+				1613116368FB004C2574B93E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +220,20 @@
 		7F859976201BCF45008BD8FD /* Champlain Compass */ = {
 			isa = PBXGroup;
 			children = (
+				7F31FCC62044735600C44F4B /* TableCells */,
+				7FE74121203E3B330015CCD8 /* fontawesome-webfont.ttf */,
 				7F859977201BCF45008BD8FD /* AppDelegate.swift */,
-				7F859979201BCF45008BD8FD /* ViewController.swift */,
+				7F51F5D42037A9F700933530 /* Controllers */,
 				7F85997B201BCF45008BD8FD /* Main.storyboard */,
 				7F85997E201BCF45008BD8FD /* Assets.xcassets */,
 				7F859980201BCF45008BD8FD /* LaunchScreen.storyboard */,
 				7F859983201BCF45008BD8FD /* Info.plist */,
+				7FD40CAF2051BB4C002E449D /* GoogleService-Info.plist */,
+				7FE740D9203B41410015CCD8 /* CompassDataStructures.swift */,
+				7FE740DB203B4A8F0015CCD8 /* CompassDataLab.swift */,
+				7F31FCC420423A5F00C44F4B /* UIColorExtension.swift */,
+				7F31FCD32046129200C44F4B /* DateViewCell.swift */,
+				7F31FCDB204AFE8C00C44F4B /* CustomInfoMarker */,
 			);
 			path = "Champlain Compass";
 			sourceTree = "<group>";
@@ -132,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F85999C201BCF45008BD8FD /* Build configuration list for PBXNativeTarget "Champlain Compass" */;
 			buildPhases = (
+				AD64D14AC14441879709E088 /* [CP] Check Pods Manifest.lock */,
 				7F859970201BCF45008BD8FD /* Sources */,
 				7F859971201BCF45008BD8FD /* Frameworks */,
 				7F859972201BCF45008BD8FD /* Resources */,
+				48854234E0562CADC1D5C58D /* [CP] Embed Pods Frameworks */,
+				95C97DDF73D1DB9503F11110 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F85999F201BCF45008BD8FD /* Build configuration list for PBXNativeTarget "Champlain CompassTests" */;
 			buildPhases = (
+				B3891933C236DAE561490370 /* [CP] Check Pods Manifest.lock */,
 				7F859984201BCF45008BD8FD /* Sources */,
 				7F859985201BCF45008BD8FD /* Frameworks */,
 				7F859986201BCF45008BD8FD /* Resources */,
+				504F070FF50F46E01EAA0E42 /* [CP] Embed Pods Frameworks */,
+				C2579D6A2DDD2B6B7D06E29B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8599A2201BCF45008BD8FD /* Build configuration list for PBXNativeTarget "Champlain CompassUITests" */;
 			buildPhases = (
+				DEC6482F110CE6DD7ACD513B /* [CP] Check Pods Manifest.lock */,
 				7F85998F201BCF45008BD8FD /* Sources */,
 				7F859990201BCF45008BD8FD /* Frameworks */,
 				7F859991201BCF45008BD8FD /* Resources */,
+				6C32DBCD044458A922F19752 /* [CP] Embed Pods Frameworks */,
+				CA74FD98C43C324C86D28339 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +334,11 @@
 					7F859973201BCF45008BD8FD = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7F859987201BCF45008BD8FD = {
 						CreatedOnToolsVersion = 9.2;
@@ -233,8 +378,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F859982201BCF45008BD8FD /* LaunchScreen.storyboard in Resources */,
+				7F31FCDD204B0C9300C44F4B /* CustomInfoWindow.xib in Resources */,
+				7FE74122203E3B330015CCD8 /* fontawesome-webfont.ttf in Resources */,
 				7F85997F201BCF45008BD8FD /* Assets.xcassets in Resources */,
 				7F85997D201BCF45008BD8FD /* Main.storyboard in Resources */,
+				7FD40CB02051BB4C002E449D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +402,200 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48854234E0562CADC1D5C58D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		504F070FF50F46E01EAA0E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain CompassTests/Pods-Champlain CompassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C32DBCD044458A922F19752 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain CompassUITests/Pods-Champlain CompassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C97DDF73D1DB9503F11110 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain Compass/Pods-Champlain Compass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD64D14AC14441879709E088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Champlain Compass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3891933C236DAE561490370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Champlain CompassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2579D6A2DDD2B6B7D06E29B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain CompassTests/Pods-Champlain CompassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA74FD98C43C324C86D28339 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Champlain CompassUITests/Pods-Champlain CompassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC6482F110CE6DD7ACD513B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Champlain CompassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F859970201BCF45008BD8FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F85997A201BCF45008BD8FD /* ViewController.swift in Sources */,
+				7F31FCCA2044738E00C44F4B /* BuildingCell.swift in Sources */,
+				7F31FCD42046129200C44F4B /* DateViewCell.swift in Sources */,
+				7FE740DA203B41410015CCD8 /* CompassDataStructures.swift in Sources */,
+				7F85997A201BCF45008BD8FD /* StartViewController.swift in Sources */,
+				7F51F5DA2037AA3F00933530 /* MapViewController.swift in Sources */,
+				7F51F5DE2037AA5C00933530 /* ResourcesViewController.swift in Sources */,
+				7F31FCCC2044739C00C44F4B /* ResourceCell.swift in Sources */,
 				7F859978201BCF45008BD8FD /* AppDelegate.swift in Sources */,
+				7F31FCCE204473AA00C44F4B /* QuestionCell.swift in Sources */,
+				7FE740DE203CB0070015CCD8 /* EventViewController.swift in Sources */,
+				7F31FCDA204AFE8200C44F4B /* CustomInfoWindow.swift in Sources */,
+				7F31FCC82044738100C44F4B /* EventCell.swift in Sources */,
+				7F31FCC520423A5F00C44F4B /* UIColorExtension.swift in Sources */,
+				7F51F5D62037AA1E00933530 /* AreaSelectionViewController.swift in Sources */,
+				7FE740DC203B4A8F0015CCD8 /* CompassDataLab.swift in Sources */,
+				7F51F5E02037AA6D00933530 /* QuestionsViewController.swift in Sources */,
+				7F51F5D82037AA3200933530 /* SettingsViewController.swift in Sources */,
+				7F31FCD02044AD0A00C44F4B /* PresenterViewController.swift in Sources */,
+				7F51F5DC2037AA4E00933530 /* ScheduleViewController.swift in Sources */,
+				7F51F5D32037A9E900933530 /* GroupSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +759,18 @@
 		};
 		7F85999D201BCF45008BD8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AD42C2359F83A707BECF80 /* Pods-Champlain Compass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHTDGRR2AW;
 				INFOPLIST_FILE = "Champlain Compass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.collegecompass.Champlain-Compass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +778,18 @@
 		};
 		7F85999E201BCF45008BD8FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6077A8E3FA5A9D78E2645BD /* Pods-Champlain Compass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHTDGRR2AW;
 				INFOPLIST_FILE = "Champlain Compass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.collegecompass.Champlain-Compass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +797,7 @@
 		};
 		7F8599A0201BCF45008BD8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E6B34148F5DE5CDE90EA83 /* Pods-Champlain CompassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +814,7 @@
 		};
 		7F8599A1201BCF45008BD8FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E1ADC1FD17777B4ACC197C /* Pods-Champlain CompassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +831,7 @@
 		};
 		7F8599A3201BCF45008BD8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75021567F30D6D1A83A9D94D /* Pods-Champlain CompassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +847,7 @@
 		};
 		7F8599A4201BCF45008BD8FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68557F493EA8E7EF7FE0DDD6 /* Pods-Champlain CompassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

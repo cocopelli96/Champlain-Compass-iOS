@@ -1,0 +1,6 @@
+framework module Pods_Champlain_Compass {
+  umbrella header "Pods-Champlain Compass-umbrella.h"
+
+  export *
+  module * { export * }
+}

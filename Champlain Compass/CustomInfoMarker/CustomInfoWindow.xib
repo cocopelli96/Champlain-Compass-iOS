@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright © 2018 Travis Spinelli
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="6o3-PY-3Oj" customClass="CustomInfoWindow" customModule="Champlain_Compass" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Building Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1w-rh-QYY">
+                    <rect key="frame" x="0.0" y="0.0" width="260" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="qc6-Uk-LDU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5O-aw-Ixw">
+                    <rect key="frame" x="0.0" y="45" width="260" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="26a-zg-nF6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iz5-vf-cbL">
+                    <rect key="frame" x="85" y="70" width="90" height="30"/>
+                    <color key="backgroundColor" red="0.12549019610000001" green="0.37647058820000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="1dd-yh-r91"/>
+                        <constraint firstAttribute="height" constant="30" id="9BN-nd-Wzb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="15"/>
+                    <inset key="titleEdgeInsets" minX="3" minY="0.0" maxX="3" maxY="0.0"/>
+                    <state key="normal" title="Directions">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="4Id-de-2pw" firstAttribute="bottom" secondItem="Iz5-vf-cbL" secondAttribute="bottom" id="3Ti-7S-N9E"/>
+                <constraint firstItem="Iz5-vf-cbL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4Id-de-2pw" secondAttribute="leading" constant="30" id="DDs-xj-ghB"/>
+                <constraint firstItem="a1w-rh-QYY" firstAttribute="leading" secondItem="4Id-de-2pw" secondAttribute="leading" id="Ls6-33-4oA"/>
+                <constraint firstItem="Iz5-vf-cbL" firstAttribute="centerX" secondItem="6o3-PY-3Oj" secondAttribute="centerX" id="OTV-Xf-m1M"/>
+                <constraint firstItem="4Id-de-2pw" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Iz5-vf-cbL" secondAttribute="trailing" constant="30" id="PBl-r0-iAR"/>
+                <constraint firstItem="G5O-aw-Ixw" firstAttribute="top" secondItem="a1w-rh-QYY" secondAttribute="bottom" id="QJK-M0-9vP"/>
+                <constraint firstItem="a1w-rh-QYY" firstAttribute="top" secondItem="4Id-de-2pw" secondAttribute="top" id="VJA-fO-1rg"/>
+                <constraint firstItem="G5O-aw-Ixw" firstAttribute="centerX" secondItem="6o3-PY-3Oj" secondAttribute="centerX" id="WrC-Br-J9H"/>
+                <constraint firstItem="G5O-aw-Ixw" firstAttribute="leading" secondItem="4Id-de-2pw" secondAttribute="leading" id="iFK-pb-Jag"/>
+                <constraint firstItem="a1w-rh-QYY" firstAttribute="centerX" secondItem="6o3-PY-3Oj" secondAttribute="centerX" id="je8-H1-Kze"/>
+                <constraint firstItem="Iz5-vf-cbL" firstAttribute="top" secondItem="G5O-aw-Ixw" secondAttribute="bottom" id="oIo-hv-C1g"/>
+                <constraint firstItem="4Id-de-2pw" firstAttribute="trailing" secondItem="a1w-rh-QYY" secondAttribute="trailing" id="vi6-kl-NhQ"/>
+                <constraint firstItem="4Id-de-2pw" firstAttribute="trailing" secondItem="G5O-aw-Ixw" secondAttribute="trailing" id="w6I-bQ-Vjb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="4Id-de-2pw"/>
+            <connections>
+                <outlet property="directionsButton" destination="Iz5-vf-cbL" id="QPC-ao-ix5"/>
+                <outlet property="subtitleLabel" destination="G5O-aw-Ixw" id="1aP-XL-jeO"/>
+                <outlet property="titleLabel" destination="a1w-rh-QYY" id="8md-ju-6wA"/>
+            </connections>
+            <point key="canvasLocation" x="-120" y="352"/>
+        </view>
+    </objects>
+</document>
